@@ -107,7 +107,7 @@ a:active {
 .nav_container .navbar-nav>li>a {
 	color: #000;
 	font-size: 18px;
-	width: 140px;
+	width:6em;
 	text-align: center;
 	color: #fff;
 }
@@ -116,7 +116,7 @@ a:active {
 .nav_container .navbar-nav>li>a:focus {
 	color: #fff;
 	background-color: #CD0000;
-	width: 140px;
+	width:6em;
 	text-align: center;
 }
 
