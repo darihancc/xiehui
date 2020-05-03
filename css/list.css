@@ -1,0 +1,175 @@
+
+/**
+* 图片新闻右侧新闻列表块开始
+*/
+.topNews{
+ width: 100%;
+ height: 460px;
+}
+.topNews .top{
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+}
+
+.topNews .top .channel{
+    width: 332px;
+    height: 17px;
+    float: left;
+    color: #f00;
+}
+
+.topNews .top .more a{
+    width: 53x;
+    height: 17px;
+    float:right;
+    color: #f00;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.topNews .list{
+	height: 290px;
+    width: 100%;
+    margin-top: 10px;
+}
+.topNews .list ul{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+/**
+*  图片新闻右侧新闻列表块结束
+*/
+
+/**
+*  主页中新闻列表样式开始
+*/
+.commnlist .item{
+    line-height: 36px;
+    height: 36px;
+    padding-left: 22px;
+    background: url(../img/liststyle.png) no-repeat 3px center;
+    cursor: pointer;
+    font-family: 微软雅黑, 宋体;
+    width: 100%;
+    font-size: 16px;
+    list-style: none;
+}
+.commnlist .item a{
+    color: #272727;
+    text-decoration: none;
+}
+
+ .commnlist .item span{
+
+    float: right;
+    color: #CECECE;
+    margin-right: 3px;
+}
+/**
+*  主页中新闻列表样式结束
+*/
+
+/**
+*  快捷入口开始
+*/
+.entrances
+{
+    height: 320px;
+    width: 100%;
+    padding-top: 10px;
+}
+.entrances .item{
+ width: 100%;
+ height: 32px;
+ margin-top: 15px;
+ background-color: #fef3f3;
+ padding-top: 5px;
+ padding-left: 10px;
+ 
+}
+
+.entrances .item a{
+font-size: 16px;
+color: #fff;
+}
+
+.entrances .item a:hover {
+    color: #ff203a;
+    cursor: pointer;
+}
+
+/**
+*  快捷入口结束
+*/
+
+
+/**
+*  主页中间位置的图片新闻开始
+*/
+
+.channel_list{
+    height: 320px;
+}
+
+.channel_list .channel{
+    height:44px;
+    background-color: #e60012;
+}
+
+.channel_list .list{
+    height:417px;
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+}
+
+.channel_list .list .item{
+    
+    height:270px;
+    width: 230px;
+    float: left;
+    margin-right: 5px;
+}
+
+.channel_list .list .item img{
+    width: 225px;
+    height:154px;
+   
+}
+
+.channel_list .list .item .tile{
+    height:25px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.channel_list .list .item .author{
+    height:30px;
+    width: 100%;
+}
+
+.channel_list .list .item .name{
+    height:30px;
+    width: 100%;
+}
+
+/**
+*  主页中间位置的图片新闻结束
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

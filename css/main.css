@@ -2,7 +2,6 @@ body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.4285;
-	color: white;
 	padding: 0;
 	margin: 0;
 }
@@ -199,6 +198,7 @@ a:active {
 	border-bottom: 4px solid #CD0000;
 	padding: 0px 13px;
 }
+<<<<<<< HEAD
 .con_border .title .title_text a {
 	display: inline-block;
 	/* height: 47px; */
@@ -279,3 +279,8 @@ li.tabin {
 .content p {
 	font-size:14px;
 }
+=======
+.con_boder .title{
+	
+}
+>>>>>>> 37b59942a35cb462e52785bc9a91010b1c938c93
