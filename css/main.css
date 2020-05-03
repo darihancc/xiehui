@@ -199,29 +199,6 @@ a:active {
 	padding: 9px 13px 0px 13px;
 }
 
-/* .con_border .title .title_text a {
-	display: inline-block;
-	line-height: 32px;
-	font-weight: 600;
-	color: #EE3B3B;
-	padding: 0px 13px;
-}
-
-.con_border .title .title_text a:visited {
-	display: inline-block;
-	border-bottom: 4px solid #CD0000;
-}
-
-.con_border .title .title_text a:hover {
-	display: inline-block;
-	border-bottom: 4px solid #CD0000;
-}
-
-.con_border .title .title_text a:active {
-	display: inline-block;
-	border-bottom: 4px solid #CD0000;
-} */
-
 .con_border .title .title_more {
 	display: inline-block;
 	font-size: 14px;
@@ -232,11 +209,182 @@ a:active {
 	float: right;
 }
 
-.mytab li {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+/**
+* 图片新闻右侧新闻列表块开始
+*/
+.topNews {
+	width: 100%;
+	height: 460px;
+}
 
+.topNews .top {
+	width: 100%;
+	height: 30px;
+	font-size: 18px;
+}
+
+.topNews .top .channel {
+	width: 332px;
+	height: 17px;
+	float: left;
+	color: #f00;
+}
+
+.topNews .top .more a {
+	width: 53x;
+	height: 17px;
+	float: right;
+	color: #f00;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+.topNews .list {
+	height: 290px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.topNews .list ul {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+/**
+   *  图片新闻右侧新闻列表块结束
+   */
+
+/**
+   *  主页中新闻列表样式开始
+   */
+.commnlist {
+	margin-top: 10px;
+}
+
+.commnlist .item {
+	line-height: 36px;
+	height: 36px;
+	/* list-style-image: url(../img/liststyle.png); */
+	background: url(../img/liststyle.png) no-repeat 3px center;
+	cursor: pointer;
+	font-family: 微软雅黑, 宋体;
+	width: 100%;
+	font-size: 16px;
+	list-style: none;
+	/* float: left; */
+}
+
+.commnlist .item a {
+	color: #272727;
+	text-decoration: none;
+	display: block;
+	width: 70%;
+	float: left;
+	line-height: 36px;
+	height: 36px;
+
+}
+
+.commnlist .item .date {
+	color: #CECECE;
+	margin-right: 3px;
+	width: 25%;
+	float: left;
+	line-height: 36px;
+	height: 36px;
+}
+
+/**
+   *  主页中新闻列表样式结束
+   */
+
+/**
+   *  快捷入口开始
+   */
+.entrances {
+	height: 320px;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.entrances .item {
+	width: 100%;
+	height: 32px;
+	margin-top: 15px;
+	background-color: #fef3f3;
+	padding-top: 5px;
+	padding-left: 10px;
+
+}
+
+.entrances .item a {
+	font-size: 16px;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.entrances .item a:hover {
+	color: #fff;
+	cursor: pointer;
+	background-color: #ff203a;
+}
+
+/**
+   *  快捷入口结束
+   */
+
+
+/**
+   *  主页中间位置的图片新闻开始
+   */
+
+.channel_list {
+	height: 320px;
+}
+
+.channel_list .channel {
+	height: 44px;
+	background-color: #e60012;
+}
+
+.channel_list .list {
+	height: 417px;
+	width: 100%;
+	padding: 5px 0px 5px 0px;
+}
+
+.channel_list .list .item {
+
+	height: 270px;
+	width: 230px;
+	float: left;
+	margin-right: 5px;
+}
+
+.channel_list .list .item img {
+	width: 225px;
+	height: 154px;
+
+}
+
+.channel_list .list .item .tile {
+	height: 25px;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.channel_list .list .item .author {
+	height: 30px;
+	width: 100%;
+}
+
+.channel_list .list .item .name {
+	height: 30px;
+	width: 100%;
 }
 
 .mytab {
@@ -246,6 +394,9 @@ a:active {
 }
 
 .mytab li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
 	display: inline-block;
 	/* height: 47px; */
 	line-height: 32px;
@@ -255,7 +406,6 @@ a:active {
 	color: #EE3B3B;
 	padding: 9px 13px 0px 13px;
 }
-
 
 .mytab li:hover {
 	border-bottom: 4px solid #CD0000;
