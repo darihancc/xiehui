@@ -182,7 +182,7 @@ a:active {
 	text-align: left;
 	/* height: 25px; */
 	text-align: right;
-	padding: 9px;
+	/* padding: 9px; */
 	padding-left: 20px;
 	float: left;
 }
@@ -278,7 +278,7 @@ li.tabin {
 .content p {
 	font-size:14px;
 }
-=======
+
 .con_boder .title{
 	
 }
@@ -330,27 +330,38 @@ li.tabin {
    /**
    *  主页中新闻列表样式开始
    */
+   .commnlist{
+	   margin-top: 10px;
+   }
    .commnlist .item{
 	   line-height: 36px;
 	   height: 36px;
-	   padding-left: 22px;
 	   background: url(../img/liststyle.png) no-repeat 3px center;
 	   cursor: pointer;
 	   font-family: 微软雅黑, 宋体;
 	   width: 100%;
 	   font-size: 16px;
 	   list-style: none;
+	   float: left;
    }
    .commnlist .item a{
 	   color: #272727;
 	   text-decoration: none;
+	   display: block;
+	   width: 70%;
+	   float: left;
+	   line-height: 36px;
+	   height: 36px;
+
    }
    
-	.commnlist .item span{
-   
-	   float: right;
+	.commnlist .item .date{
 	   color: #CECECE;
 	   margin-right: 3px;
+	   width: 25%;
+	   float: left;
+	   line-height: 36px;
+	   height: 36px;
    }
    /**
    *  主页中新闻列表样式结束
@@ -378,11 +389,15 @@ li.tabin {
    .entrances .item a{
    font-size: 16px;
    color: #fff;
+   width: 100%;
+   height: 100%;
+   display: block;
    }
    
    .entrances .item a:hover {
-	   color: #ff203a;
+	   color: #fff;
 	   cursor: pointer;
+	   background-color: #ff203a;
    }
    
    /**
