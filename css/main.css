@@ -189,98 +189,66 @@ a:active {
 
 .con_border .title .title_text .on {
 	display: block;
-	/* height: 47px; */
+	/* height: 35px; */
 	line-height: 32px;
 	/* font-size: 22px; */
 	/* font-family: 宋体; */
 	font-weight: 600;
 	color: #EE3B3B;
 	border-bottom: 4px solid #CD0000;
-	padding: 0px 13px;
+	padding: 9px 13px 0px 13px;
 }
-.con_border .title .title_text a {
+
+/* .con_border .title .title_text a {
+>>>>>>> 287c590bd6e3dbdeb93c2c0463cb08b0c20bfd48
 	display: inline-block;
-	/* height: 47px; */
 	line-height: 32px;
-	/* font-size: 22px; */
-	/* font-family: 宋体; */
 	font-weight: 600;
 	color: #EE3B3B;
 	padding: 0px 13px;
 }
+
 .con_border .title .title_text a:visited {
 	display: inline-block;
 	border-bottom: 4px solid #CD0000;
 }
+
 .con_border .title .title_text a:hover {
 	display: inline-block;
 	border-bottom: 4px solid #CD0000;
 }
+
 .con_border .title .title_text a:active {
 	display: inline-block;
 	border-bottom: 4px solid #CD0000;
-}
+} */
 
 .con_border .title .title_more {
 	display: inline-block;
 	font-size: 14px;
 	color: #EE3B3B;
 	text-align: center;
-	padding: 15px;
+	padding: 14px;
 	padding-right: 20px;
 	float: right;
 }
 
-.middle .middel_main .bsfwbox .bstitle span {
-	display: block;
-	height: 47px;
-	line-height: 56px;
-	font-size: 22px;
-	font-family: 宋体;
+.mytab ul,
+.mytab li {
+	list-style: none;
+}
+
+.mytab ul {
+	overflow: hidden;
+}
+
+.mytab li {
+	display: inline-block;
+	/* height: 47px; */
+	line-height: 32px;
+	/* font-size: 22px; */
+	/* font-family: 宋体; */
 	font-weight: 600;
-	color: rgb(18, 70, 140);
-	border-bottom: 2px solid rgb(18, 70, 140);
-	padding: 0px 13px;
-}
-
-
-li.tabin {
-	background:#f90;
-	color:#fff
-}
-.content-box {
-	width:550px;
-	height:250px;
-	background:#f90;
-	position:absolute;
-	left:0;
-	top:63px;
-	overflow:hidden;
-}
-.content {
-	clear:both;
-	color:#fff;
-	padding:10px;
-	opacity:0;
-	transition:all ease .3s;
-	position:absolute;
-	top:0;
-	left:0;
-}
-.contentin {
-	opacity:1;
-}
-.content h1 {
-	font-size:18px;
-	margin-bottom:20px;
-	margin-top:20px;
-}
-.content p {
-	font-size:14px;
-}
-
-.con_boder .title{
-	
 }
 
 /**
@@ -454,6 +422,53 @@ li.tabin {
 	   width: 100%;
    }
    
-   /**
-   *  主页中间位置的图片新闻结束
-   */
+ 
+.mytab li:hover {
+	border-bottom: 4px solid #CD0000;
+}
+
+.mytab li.tabin {
+	border-bottom: 4px solid #CD0000;
+}
+
+.mytab li.tabin {
+	border-bottom: 4px solid #CD0000;
+}
+
+.content-box {
+	/* width: 100%; */
+	height: 250px;
+	background: #f90;
+	/* position: absolute; */
+	/* left: 0;
+	top: 63px; */
+	overflow: hidden;
+}
+
+.content {
+	clear: both;
+	color: #fff;
+	padding: 10px;
+	opacity: 0;
+	transition: all ease .3s;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.contentin {
+	opacity: 1;
+}
+
+.content h1 {
+	font-size: 18px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.content p {
+	font-size: 14px;
+}
+
+.con_boder .title {}
+
