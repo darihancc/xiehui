@@ -125,9 +125,8 @@ body {
 	background-color: #e7e7e7;
 }
 
-.con_boder{
-	border: 1px solid #d7d7d7;
+.con_border {
+	border: 1px solid #EE2C2C;
 }
-.con_boder .title{
-	
-}
+
+.con_border .title {}
