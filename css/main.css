@@ -127,6 +127,7 @@ body {
 
 .con_border {
 	border: 1px solid #EE2C2C;
+	border-radius: 10px;
 }
 
 .con_border .title {}
