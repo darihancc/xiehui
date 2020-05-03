@@ -198,31 +198,6 @@ a:active {
 	border-bottom: 4px solid #CD0000;
 	padding: 9px 13px 0px 13px;
 }
-
-/* .con_border .title .title_text a {
->>>>>>> 287c590bd6e3dbdeb93c2c0463cb08b0c20bfd48
-	display: inline-block;
-	line-height: 32px;
-	font-weight: 600;
-	color: #EE3B3B;
-	padding: 0px 13px;
-}
-
-.con_border .title .title_text a:visited {
-	display: inline-block;
-	border-bottom: 4px solid #CD0000;
-}
-
-.con_border .title .title_text a:hover {
-	display: inline-block;
-	border-bottom: 4px solid #CD0000;
-}
-
-.con_border .title .title_text a:active {
-	display: inline-block;
-	border-bottom: 4px solid #CD0000;
-} */
-
 .con_border .title .title_more {
 	display: inline-block;
 	font-size: 14px;
@@ -230,11 +205,10 @@ a:active {
 	text-align: center;
 	padding: 14px;
 	padding-right: 20px;
-	float: right;
+	float:right;
 }
 
-.mytab ul,
-.mytab li {
+.mytab ul li {
 	list-style: none;
 }
 
@@ -244,10 +218,7 @@ a:active {
 
 .mytab li {
 	display: inline-block;
-	/* height: 47px; */
 	line-height: 32px;
-	/* font-size: 22px; */
-	/* font-family: 宋体; */
 	font-weight: 600;
 }
 
@@ -438,7 +409,7 @@ a:active {
 .content-box {
 	/* width: 100%; */
 	height: 250px;
-	background: #f90;
+	
 	/* position: absolute; */
 	/* left: 0;
 	top: 63px; */
@@ -470,5 +441,7 @@ a:active {
 	font-size: 14px;
 }
 
-.con_boder .title {}
+.con_boder .title {
+
+}
 
