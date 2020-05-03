@@ -105,26 +105,47 @@
 					<div class="con_border">
 						<div class="title">
 							<div class="title_text">
-								<a href="#home" data-toggle="tab">
-									<span class="active">菜鸟教程</span>
-								</a>
-								<a href="#ios" data-toggle="tab"><span>iOS</span></a>
+								<ul id="tablist">
+									<li class="tabin">Section 1</li>
+									<li>Section 2</li>
+									<li>Section 3</li>
+								</ul>
 							</div>
 							<div class="clearfix"></div>
 						</div>
 
-						<div id="myTabContent" class="tab-content">
-							<div class="tab-pane fade in active" id="home">
-								<p>菜鸟教程是一个提供最新的web技术站点，本站免费提供了建站相关的技术文档，帮助广大web技术爱好者快速入门并建立自己的网站。菜鸟先飞早入行——学的不仅是技术，更是梦想。</p>
-							</div>
-							<div class="tab-pane fade" id="ios">
-								<p>iOS 是一个由苹果公司开发和发布的手机操作系统。最初是于 2007 年首次发布 iPhone、iPod Touch 和 Apple
-									TV。iOS 派生自 OS X，它们共享 Darwin 基础。OS X 操作系统是用在苹果电脑上，iOS 是苹果的移动版本。</p>
-							</div>
-						</div>
+						<div class="content-box">
+						        <div class="content contentin">
+						            <h1>Section 1</h1>
+						            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec urna aliquam, ornare eros vel, malesuada lorem. Nullam faucibus lorem at eros consectetur lobortis. Maecenas nec nibh congue, placerat sem id, rutrum velit. Phasellus porta
+						                enim at facilisis condimentum. Maecenas pharetra dolor vel elit tempor pellentesque sed sed eros. Aenean vitae mauris tincidunt, imperdiet orci semper, rhoncus ligula. Vivamus scelerisque.</p>
+						        </div>
+						        <div class="content">
+						            <h1>Section 2</h1>
+						            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec urna aliquam, ornare eros vel, malesuada lorem. Nullam faucibus lorem at eros consectetur lobortis. Maecenas nec nibh congue, placerat sem id, rutrum velit. Phasellus porta
+						                enim at facilisis condimentum. Maecenas pharetra dolor vel elit tempor pellentesque sed sed eros. Aenean vitae mauris tincidunt, imperdiet orci semper, rhoncus ligula. Vivamus scelerisque.</p>
+						        </div>
+						        <div class="content">
+						            <h1>Section 3</h1>
+						            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec urna aliquam, ornare eros vel, malesuada lorem. Nullam faucibus lorem at eros consectetur lobortis. Maecenas nec nibh congue, placerat sem id, rutrum velit. Phasellus porta
+						                enim at facilisis condimentum. Maecenas pharetra dolor vel elit tempor pellentesque sed sed eros. Aenean vitae mauris tincidunt, imperdiet orci semper, rhoncus ligula. Vivamus scelerisque.</p>
+						        </div>
+						    </div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</body>
 </html>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#tablist li").each(function(index) {
+			$(this).mouseover(function() {
+				$(".contentin").removeClass("contentin");
+				$(".tabin").removeClass("tabin");
+				$(".content-box div").eq(index).addClass("contentin");
+				$(this).addClass("tabin")
+			});
+		})
+	})
+</script>
